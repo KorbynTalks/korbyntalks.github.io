@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+	<head>
+		<title>ShopDSi, DSi Shop reborn.</title>
+		<meta content="ShopDSi, DSi Shop reborn." property="og:title" />
+		<meta content="Work In Progress! This site tries to bring back the DSi Shop in a Browser, able to download games (via external site), browse whats trending, and more." property="og:description" />
+		<link rel="icon" type="favicon" href="../../images/favicon.jpg">
+		<style>
+			.Screen {
+				height: 192px;
+				width: 256px;
+				outline: 2px;
+			}
+		</style>
+	</head>
+
+	<body>
+	
+	<script> 
+		function BrowserCheck() {
+			var userAgent = navigator.userAgent;
+			if (userAgent.indexOf("Opera") > -1) {
+				
+			} else { 
+			document.write("Not using DSi Browser!")
+			window.location.href = "http://korbyntalks.141412.xyz/desktop"
+			}
+		}
+
+		
+	</script>
+	<p></p>
+	<div class="DSiScreens">
+		<div class="Screen1">
+            <text>Important Info</text>
+            <p></p>
+            <text style="position: relative; height: 100%;">Please make a selection.</text>
+		</div>
+		<script>
+			fetch("../database/news.json")
+						.then(response => response.json())
+						.then(data => {
+							for (var i = 0; i<data.data.length; i++){
+							let title = data.data[i].title;
+                            let newsid = data.data[i].newsid;
+							document.querySelector("#Screen2 .gameDetails").innerHTML += `
+								<button style="display: block; position: relative; width: 250px; height: 70px; font-size: 17.1px; border-radius: 5px; border: 1px solid rgb(14, 207, 255); background-color: rgb(255, 255, 255); transition-duration: 0s;" class="${newsid}">
+									<text style="display: block; position: absolute; top: 11px; right: 170px;">${title}</text>
+								</button>`;
+							}
+						})
+		</script>
+		<div id="Screen2">
+			<div class="Screen" style="height: 192px; width: 256px;">
+				<table>
+					<tbody class="newsDetails">
+						<p></p>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

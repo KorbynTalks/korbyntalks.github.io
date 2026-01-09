@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+
+	<body>
+		<script>
+		
+		function continueAnyway() {
+			document.cookie = "continueAnyway=true;"
+		}
+		
+		</script>
+	
+	
+		<h1>Sorry! You cannot access ShopDSi because you are using a Desktop browser!</h1>
+		<p></p>
+		<button onclick="continueAnyway()">Go to ShopDSi anyway</button>
+		
+	
+	</body>
+
+
+</html>

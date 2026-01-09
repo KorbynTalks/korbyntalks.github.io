@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+	<head>
+		<title>ShopDSi, DSi Shop reborn.</title>
+		<meta content="ShopDSi, DSi Shop reborn." property="og:title" />
+		<meta content="Work In Progress! This site tries to bring back the DSi Shop in a Browser, able to download games (via external site), browse whats trending, and more." property="og:description" />
+		<link rel="icon" type="favicon" href="images/favicon.jpg">
+		<style>
+			.LoadingScreen2 {
+				color: white;
+			}
+	
+			.parsingDataText1 {
+				position: absolute;
+				top: 25%;
+				left: 7%;
+				transform: translate(-50%, -10%);
+				color: black;
+			}
+			
+			.parsingDataText2 {
+				position: absolute;
+				top: 27%;
+				left: 7%;
+				transform: translate(-50%, -10%);
+				color: black;
+			}
+		</style>
+	</head>
+
+	<body>
+	
+	<script> 
+		function BrowserCheck() {
+			var userAgent = navigator.userAgent;
+			if (userAgent.indexOf("Opera") > -1) {
+				
+			} else { 
+			document.write("Not using DSi Browser!")
+			window.location.href = "http://korbyntalks.141412.xyz/desktop"
+			}
+		}
+		
+		function Redirect() {
+			setTimeout(function () {
+				window.location.href = "http://korbyntalks.141412.xyz/ShopDSi/MainMenu"
+			}, 10000)
+		}
+
+		Redirect()
+
+	</script>
+	<p></p>
+	<div class="DSiScreens">
+		<div class="LoadingScreen1">
+			<img src="images/Loading2.jpg" alt="Loading image"></img>
+		</div>
+		<div class="LoadingScreen2">
+			<div class="LoadScreen" id="LoadScreen">
+				<img src="images/Loading.jpg" alt="Loading image"></img>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

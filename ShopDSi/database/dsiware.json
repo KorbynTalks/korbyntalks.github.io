@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"title": "Flipnote Studio",
+			"image": "../../images/flip.gif",
+			"location": "https://archive.org/download/famicomwarsdsushinawaretahikarijapan3dsonly/Flipnote%20Studio%20%28USA%29%20%28En%2CFr%2CEs%29.zip",
+			"gameid": "1"
+		},
+		{
+			"title": "DSi Browser",
+			"image": "../../images/browser.gif",
+			"location": "https://archive.org/download/famicomwarsdsushinawaretahikarijapan3dsonly/Nintendo%20DSi%20Browser%20%28USA%29%20%28Rev%203%29.zip",
+			"gameid": "2"
+		},
+		{
+			"title": "New Super Mario Bros",
+			"image": "../../images/newmario.png",
+			"location": "https://archive.org/download/NintendoDSRomCollectionByGhostware/New%20Super%20Mario%20Bros.%20%28USA%29.nds",
+			"gameid": "3"
+		}
+	]
+}

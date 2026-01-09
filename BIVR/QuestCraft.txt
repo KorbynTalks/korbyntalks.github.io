@@ -1,0 +1,12 @@
+1. Open QuestCraft on your Quest headset.
+2. Go to "Mods" and go to "Modpacks"
+3. Search for "Beta in VR" and click on the result that has the name "Beta in VR"
+4. Download the Modpack
+5. When finished, go back to the main menu
+6. Go to "Instances" then "Beta in VR"
+7. In the modlist, delete the following mods: Concurrent Chunk Management Engine (c2me), Noisium
+8. Launch Minecraft with "Beta in VR" selected in the dropdown located in the main menu
+9. When ingame create a world as normal BUT!
+10. Go to "More World Options" and change the World Type to "Default", THIS IS VERY IMPORTANT!
+11. Create your world
+12. Enjoy! (:

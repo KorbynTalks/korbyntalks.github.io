@@ -1,0 +1,5 @@
+<style>
+    audio::-webkit-media-controls {
+        display: none;
+    }
+</style>
