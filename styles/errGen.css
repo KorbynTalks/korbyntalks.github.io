@@ -8,11 +8,14 @@
     src: url("../fonts/ms-sans-serif-1-bold.ttf");
 }
 
+body {
+    font-family: "9xFont";
+}
+
 #background {
     background-image: url("../ErrorList/images/Background.webp");
     background-repeat: no-repeat;
     background-position-x: center;
-    font-family: "9xFont";
     background-size: 1280px 960px;
     background-color: #fafafa;
 }
@@ -30,21 +33,7 @@
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.644)
 }
 
-#WEGText {
-    font-size: x-large;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: fit-content;
-}
-
-#NCEG {
-    font-size: x-large;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: fit-content;
-}
-
-#REG {
+header {
     font-size: x-large;
     margin-left: auto;
     margin-right: auto;
@@ -62,45 +51,14 @@
     margin-left: 2px;
 }
 
-#WebsitesWindows {
+.Type {
     font-size: large;
     font-family: "9xFontBold";
     padding: 2px;
 }
 
-#ProgramsWindows {
-    font-size: large;
-    font-family: "9xFontBold";
-    padding: 2px;
-}
-
-#WebsitesNintendo {
-    font-size: large;
-    font-family: "9xFontBold";
-    padding: 2px;
-}
-
-#ProgramsNintendo {
-    font-size: large;
-    font-family: "9xFontBold";
-    padding: 2px;
-}
-
-#WebsitesRoblox {
-    font-size: large;
-    font-family: "9xFontBold";
-    padding: 2px;
-}
-
-#ProgramsRoblox {
-    font-size: large;
-    font-family: "9xFontBold";
-    padding: 2px;
-}
-
-#errInfo {
+p {
     font-size: small;
-    padding: 5px;
 }
 
 #titlebar {
@@ -110,7 +68,7 @@
     position: fixed;
 }
 
-#List {
+.List {
     padding: 25px;
 }
 
@@ -120,7 +78,7 @@
     padding: 5px;
 }
 
-#TheActualList {
+#theList {
     margin-top: 15px;
 }
 
