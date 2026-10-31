@@ -1,19 +1,6 @@
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #121114;
-    }
-
-    #story {
+#story {
         font-size: x-large;
         text-align: center;
-        color: #ffffff;
-    }
-}
-@media (prefers-color-scheme: light) {
-    #story {
-        font-size: x-large;
-        text-align: center;
-    }
 }
 
 #comingSoon {
