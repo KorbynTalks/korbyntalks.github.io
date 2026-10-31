@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "9xFont";
+    src: url("../fonts/ms-sans-serif-1.ttf");
+}
+
+@font-face {
+    font-family: "9xFontBold";
+    src: url("../fonts/ms-sans-serif-1-bold.ttf");
+}
+
+#background {
+    background-image: url("../ErrorList/images/Background.webp");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-family: "9xFont";
+    background-size: 1280px 960px;
+    background-color: #fafafa;
+}
+
+.container {
+    overflow: auto;
+    scrollbar-width: thin;
+    width: 52vw;
+    height: 800px;
+    border: double #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    background-color: #c0c0c0;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.644)
+}
+
+#WEGText {
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+#NCEG {
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+#REG {
+    font-size: x-large;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+
+#mainText {
+    font-size: large;
+    font-family: "9xFontBold";
+    float: left;
+    max-width: fit-content;
+    color: #ffffff;
+    padding: 3px;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+#WebsitesWindows {
+    font-size: large;
+    font-family: "9xFontBold";
+    padding: 2px;
+}
+
+#ProgramsWindows {
+    font-size: large;
+    font-family: "9xFontBold";
+    padding: 2px;
+}
+
+#WebsitesNintendo {
+    font-size: large;
+    font-family: "9xFontBold";
+    padding: 2px;
+}
+
+#ProgramsNintendo {
+    font-size: large;
+    font-family: "9xFontBold";
+    padding: 2px;
+}
+
+#WebsitesRoblox {
+    font-size: large;
+    font-family: "9xFontBold";
+    padding: 2px;
+}
+
+#ProgramsRoblox {
+    font-size: large;
+    font-family: "9xFontBold";
+    padding: 2px;
+}
+
+#errInfo {
+    font-size: small;
+    padding: 5px;
+}
+
+#titlebar {
+    width: 52vw;
+    height: 30px;
+    background-color: #0000c8;
+    position: fixed;
+}
+
+#List {
+    padding: 25px;
+}
+
+#CloseButton {
+    width: 25px;
+    float: right;
+    padding: 5px;
+}
+
+#TheActualList {
+    margin-top: 15px;
+}
+
+#disclaimer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: small;
+    max-width: fit-content;
+    padding: 20px;
+}
+
+#classicGifsthatalwaysappearatthebottomofthepageoneverysiteintheearlydaysoftheinternet {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
