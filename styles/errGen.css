@@ -10,9 +10,6 @@
 
 body {
     font-family: "9xFont";
-}
-
-#background {
     background-image: url("../ErrorList/images/Background.webp");
     background-repeat: no-repeat;
     background-position-x: center;
