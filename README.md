@@ -1,3 +1,3 @@
 # korbyntalks.github.io
 
-Source Code for my Github Page (Website). Look around if you want, but expect some terrible code :P
+Source Code for my Website. Currently rewriting behind the scenes, so there isn't much of anything here at the moment.
