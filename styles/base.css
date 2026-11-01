@@ -22,6 +22,11 @@
     }
 }
 
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+
 header {
     font-size: x-large;
     text-align: center;
