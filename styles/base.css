@@ -6,4 +6,13 @@
     p {
         color: #ffffff;
     }
+
+    header {
+        color: #ffffff;
+    }
+}
+
+header {
+    font-size: x-large;
+    text-align: center;
 }
