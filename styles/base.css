@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121114;
+        background-color: #0a1316;
     }
 
     p {
@@ -9,6 +9,11 @@
 
     header {
         color: #ffffff;
+    }
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #7cb7d1;
     }
 }
 
