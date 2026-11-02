@@ -1,7 +1,7 @@
 window.onload = start;
 
 function start() {
-    aboutMe.style.display = "none";
+    aboutMe.style.display = "";
     projects.style.display = "none";
     gallery.style.display = "none";
 }
