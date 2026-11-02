@@ -15,10 +15,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 1500px;
-    animation-duration: 15s;
-    animation-name: slide-in;
+    animation-duration: 35s;
+    animation-name: slide-in-out;
     animation-iteration-count: infinite;
-    animation-direction: alternate, alternate-reverse;
 }
 
 #ground {
@@ -118,12 +117,16 @@ nav button:active {
     padding: 10px;
 }
 
-@keyframes slide-in {
-    from {
+@keyframes slide-in-out {
+    0% {
         translate: 0vw 0;
     }
 
-    to {
+    50% {
         translate: 8vw 0;
+    }
+
+    100% {
+        translate: 0vw 0;
     }
 }
