@@ -1,6 +1,8 @@
 window.onload = start;
 
 function start() {
+    console.log("Page loaded!");
+
     aboutMe.style.display = "";
     projects.style.display = "none";
     gallery.style.display = "none";
